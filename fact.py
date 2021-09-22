@@ -5,6 +5,7 @@ def factorial(a):
         return a*factorial(a-1)
 
 a=int(input("Enter a number : "))
+
 if a<0:
     print("There is no factorial for 0.")
 elif a == 0:
@@ -14,4 +15,6 @@ else:
     
 Print("testing for the new branch merge")
 
+print("This is a factorial program")
+    
 #added a new comment to test
